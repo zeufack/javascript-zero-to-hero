@@ -1,0 +1,29 @@
+# Variable declaration
+    var myVariable = 'this is a variable';
+    let myVariable = 15;
+    const myVariable = {
+        name: 'pat',
+        langage: 'js'
+    };
+
+var or let on const
+
+let and const are introduice in ES6 or emascript 2015, var is use since javascript was create
+
+-> `const` is a signal that the identifier won't be reassignate.
+
+-> `let` is a signal that the indentifier can be reassignate, sush as a cunter in a loop, or a value  swap 
+in an algorithm. it also signal that the variable wil only be use in the block it defined in, witch is not always the
+entier containing function.
+
+-> `var` is less use than `const` and `let` in new javascript version, is a signal that the identifier may or may
+not be reassignate, and the variable may or may not use for an entier function.
+
+# variable scopes in javascript
+
+# `==` and `===`
+    `==` abstract equality operator...  the operand of abstract equality are convert in the common type before the comparison,
+    `===` strict comparison
+
+
+
