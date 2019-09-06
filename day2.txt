@@ -1,0 +1,11 @@
+javascripte arrays 
+    let myArray = [1, 2, 3, 4];
+    *reduce 
+         => can be use to sum of the elment of the table
+            myArray.reduce(function(a, b){
+                return a+b;
+            });
+         => can be use to find max a min value of an array of number
+            myArray.reduce(function(a, b){
+                return a<b ? b : a ;
+            }, Infinity);
