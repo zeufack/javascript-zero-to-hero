@@ -9,3 +9,16 @@ javascripte arrays
             myArray.reduce(function(a, b){
                 return a<b ? b : a ;
             }, Infinity);
+    *map
+    *filter
+        take a function that return a bolean a the end we have a new array with 
+        value wich given as parameter to the function the return was true.
+
+        # eg: removing duplicate elment 
+
+            let arr = [1, 34, 24, 64, 0, 2, 1, 3, 32, 34].filter(function(value, index, self){
+                return self.indexOf(value) === index ;
+            })
+    clonning and array
+    var clone  = arrayToClone.slice(), to get a new array with the same element 
+    
